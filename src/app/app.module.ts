@@ -9,7 +9,9 @@ import { RouterModule } from '@angular/router';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([]) ],
+  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(
+    {path: }
+  ) ],
   declarations: [ AppComponent, HelloComponent, HomeComponent ],
   bootstrap:    [ AppComponent ]
 })
