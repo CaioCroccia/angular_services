@@ -5,10 +5,11 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HomeComponent } from './components/home/home.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([]) ],
   declarations: [ AppComponent, HelloComponent, HomeComponent ],
   bootstrap:    [ AppComponent ]
 })
